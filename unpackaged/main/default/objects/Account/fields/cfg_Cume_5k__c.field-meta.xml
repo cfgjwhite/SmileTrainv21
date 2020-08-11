@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Cume_5k__c</fullName>
+        <description>Cume 5k = Total Hard + Gift Fund Donor Amount &gt;= 5000 AND Total Hard + Gift Fund Donor Amount &lt;= 9999 AND Largest Hard or GFD &lt;= 999.</description>
+        <externalId>false</externalId>
+        <formula>If(
+            And( cfg_Total_Hard_Gift_Fund_Donor_Amount__c &gt;= 5000, cfg_Total_Hard_Gift_Fund_Donor_Amount__c &lt;= 9999,
+            cfg_Largest_Hard_or_GFD__c &lt;= 999),
+            "CUME5k", "No")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Cume 5k = Total Hard + Gift Fund Donor Amount &gt;= 5000 AND Total Hard + Gift Fund Donor Amount &lt;= 9999 AND Largest Hard or GFD &lt;= 999.</inlineHelpText>
+        <label>Cume 5k</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </CustomField>

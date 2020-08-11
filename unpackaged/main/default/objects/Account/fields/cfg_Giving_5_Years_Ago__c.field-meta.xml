@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Giving_5_Years_Ago__c</fullName>
+        <description>Sum of Total Hard + GFD Gifts from 5 yrs ago thru today. Used for gala invite calculation.</description>
+        <externalId>false</externalId>
+        <formula>cfg_GFD_Gifts_5_Years_Ago__c +  cfg_Total_Hard_Gifts_5_Years_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Sum of Total Hard + GFD Gifts from 5 yrs ago thru today. Used for gala invite calculation.</inlineHelpText>
+        <label>Giving 5 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Total_GFD__c</fullName>
+        <description>Count of GFD role gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Count of GFD role gifts.</inlineHelpText>
+        <label>Total # GFD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </CustomField>

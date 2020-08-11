@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Total_GFD_Hard_2_FY_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>cfg_Total_GFD_FY18__c +  npo02__OppAmount2YearsAgo__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total GFD + Hard 2 FY Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </CustomField>

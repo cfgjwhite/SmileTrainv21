@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_ID_URL__c</fullName>
+        <description>Hyperlink to account record.</description>
+        <externalId>false</externalId>
+        <formula>"https://cs198.lightning.force.com//" +  cfg_18_Digit_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Hyperlink to account record.</inlineHelpText>
+        <label>ID URL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </CustomField>

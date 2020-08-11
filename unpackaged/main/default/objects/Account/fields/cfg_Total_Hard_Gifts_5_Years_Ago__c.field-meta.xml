@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Total_Hard_Gifts_5_Years_Ago__c</fullName>
+        <description>Rollup of total hard gifts from 5 years ago.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Rollup of total hard gifts from 5 years ago.</inlineHelpText>
+        <label>Total Hard Gifts 5 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </CustomField>

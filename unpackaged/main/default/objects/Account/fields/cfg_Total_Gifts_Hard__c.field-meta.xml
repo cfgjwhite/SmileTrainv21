@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Total_Gifts_Hard__c</fullName>
+        <description>Total amount of all hard-credited gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total amount of all hard-credited gifts.</inlineHelpText>
+        <label>Total Gifts (Hard)</label>
+        <summarizedField>Opportunity.Amount</summarizedField>
+        <summaryFilterItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </CustomField>

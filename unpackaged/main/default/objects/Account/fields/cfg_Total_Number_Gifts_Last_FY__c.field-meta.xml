@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Total_Number_Gifts_Last_FY__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Number Gifts Last FY</label>
+        <summaryFilterItems>
+            <field>Opportunity.CloseDate</field>
+            <operation>lessThan</operation>
+            <value>7/1/2019</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.CloseDate</field>
+            <operation>greaterThan</operation>
+            <value>6/30/2018</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Limited_Mail__c</fullName>
+        <externalId>false</externalId>
+        <label>Limited Mail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 mailing per year</fullName>
+                    <default>false</default>
+                    <label>1 mailing per year</label>
+                </value>
+                <value>
+                    <fullName>2 mailings per year</fullName>
+                    <default>false</default>
+                    <label>2 mailings per year</label>
+                </value>
+                <value>
+                    <fullName>4 mailings per year</fullName>
+                    <default>false</default>
+                    <label>4 mailings per year</label>
+                </value>
+                <value>
+                    <fullName>8 mailings per year</fullName>
+                    <default>false</default>
+                    <label>8 mailings per year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </CustomField>

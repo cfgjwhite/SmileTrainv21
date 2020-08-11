@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Last_Gift_Amount_Hard_GFD__c</fullName>
+        <description>Amount of either Last GFD Amount or Last Hard Amount, whichever is most recent.</description>
+        <externalId>false</externalId>
+        <formula>IF (
+            AND(NOT(ISBLANK( cfg_Last_Gift_Fund_Donor_Date__c )), ISBLANK(npo02__LastCloseDate__c)), cfg_Last_Gift_Fund_Donor_Amount__c ,
+            IF (AND(ISBLANK(cfg_Last_Gift_Fund_Donor_Date__c), NOT(ISBLANK(npo02__LastCloseDate__c))), npo02__LastOppAmount__c,
+            IF(AND (NOT(ISBLANK(cfg_Last_Gift_Fund_Donor_Date__c)),NOT(ISBLANK(npo02__LastCloseDate__c))),
+            IF ( cfg_Last_Gift_Fund_Donor_Date__c &gt;= npo02__LastCloseDate__c,   cfg_Last_Gift_Fund_Donor_Amount__c, npo02__LastOppAmount__c),
+            0)
+            )
+            )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Amount of either Last GFD Amount or Last Hard Amount, whichever is most recent.</inlineHelpText>
+        <label>Last Gift Amount (Hard/GFD)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Last_Sustainer_Date_Revised__c</fullName>
+        <description>Revised Last Sustainer Date for US and UK.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Revised Last Sustainer Date for US and UK.</inlineHelpText>
+        <label>Last Sustainer Date Revised</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </CustomField>

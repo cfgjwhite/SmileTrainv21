@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Email_Opt_out__c</fullName>
+        <description>This is a copy of the Primary Constituent's Email Opt-Out preference. If you want to amend it, do it on the constituent's detail page. Updating that field will update this field.</description>
+        <externalId>false</externalId>
+        <formula>npe01__One2OneContact__r.HasOptedOutOfEmail</formula>
+        <inlineHelpText>This is a copy of the Primary Constituent's Email Opt-Out preference. If you want to amend it, do it on the constituent's detail page. Updating that field will update this field.</inlineHelpText>
+        <label>Email Opt-out</label>
+        <type>Checkbox</type>
+    </CustomField>

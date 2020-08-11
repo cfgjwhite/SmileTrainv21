@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Total_Hard_Gift_Fund_Donor_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>cfg_Total_Gift_Fund_Donor__c  +  cfg_Total_Hard_Gifts_US__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Hard + Gift Fund Donor Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Undeliverable_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Undeliverable Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Returned Mail/No Forwarding Address</fullName>
+                    <default>false</default>
+                    <label>Returned Mail/No Forwarding Address</label>
+                </value>
+                <value>
+                    <fullName>Data Hygiene/NCOA updates</fullName>
+                    <default>false</default>
+                    <label>Data Hygiene/NCOA updates</label>
+                </value>
+                <value>
+                    <fullName>Donor told us</fullName>
+                    <default>false</default>
+                    <label>Donor told us</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Anytown Address</fullName>
+                    <default>false</default>
+                    <label>Anytown Address</label>
+                </value>
+                <value>
+                    <fullName>Address has been updated</fullName>
+                    <default>false</default>
+                    <label>Address has been updated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </CustomField>

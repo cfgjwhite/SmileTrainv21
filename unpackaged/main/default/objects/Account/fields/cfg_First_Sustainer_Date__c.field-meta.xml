@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_First_Sustainer_Date__c</fullName>
+        <description>First Sustainer Date for US and UK.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>First Sustainer Date for US and UK.</inlineHelpText>
+        <label>First Sustainer Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </CustomField>

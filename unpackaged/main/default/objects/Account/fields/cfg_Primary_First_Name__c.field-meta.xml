@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Primary_First_Name__c</fullName>
+        <description>First name of Primary Contact.</description>
+        <externalId>false</externalId>
+        <formula>npe01__One2OneContact__r.FirstName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>First name of Primary Contact.</inlineHelpText>
+        <label>Primary First Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </CustomField>

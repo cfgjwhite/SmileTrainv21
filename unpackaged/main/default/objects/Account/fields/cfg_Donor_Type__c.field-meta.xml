@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Donor_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Donor Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PC</fullName>
+                    <default>false</default>
+                    <label>PC</label>
+                </value>
+                <value>
+                    <fullName>Non-PC</fullName>
+                    <default>false</default>
+                    <label>Non-PC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </CustomField>

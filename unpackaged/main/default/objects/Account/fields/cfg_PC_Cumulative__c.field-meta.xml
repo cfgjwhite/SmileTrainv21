@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_PC_Cumulative__c</fullName>
+        <description>Premier Circle cumulative status.</description>
+        <externalId>false</externalId>
+        <formula>If (AND (npo02__TotalOppAmount__c &gt;= 50000 , npo02__LargestAmount__c &lt;= 25000), 'WP',
+
+            If (AND (AND (npo02__TotalOppAmount__c &gt;= 25000, npo02__TotalOppAmount__c &lt;=49999) , npo02__LargestAmount__c  &lt;=  10000), 'W1',
+
+            If (AND (AND (npo02__TotalOppAmount__c &gt;= 10000, npo02__TotalOppAmount__c &lt;= 24999) , npo02__LargestAmount__c  &lt;=  5000), 'W2',
+
+            If (AND (AND (npo02__TotalOppAmount__c &gt;= 5000, npo02__TotalOppAmount__c &lt;= 9999) , npo02__LargestAmount__c  &lt;=  1000), 'W3',
+
+            NULL
+            ))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Premier Circle cumulative status.</inlineHelpText>
+        <label>PC Cumulative</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </CustomField>

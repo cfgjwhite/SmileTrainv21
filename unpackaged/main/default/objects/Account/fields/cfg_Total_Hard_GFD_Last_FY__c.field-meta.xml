@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>cfg_Total_Hard_GFD_Last_FY__c</fullName>
+        <description>Total Hard gifts + Gift Fund Donor from last fiscal year</description>
+        <externalId>false</externalId>
+        <formula>cfg_Total_GFD_Last_FY__c  +   cfg_Total_Gifts_Last_FY__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Hard gifts + Gift Fund Donor from last fiscal year</inlineHelpText>
+        <label>Total Hard + GFD Last FY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </CustomField>
